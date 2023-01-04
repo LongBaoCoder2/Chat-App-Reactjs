@@ -1,4 +1,5 @@
 # Project Chat App
+Status: Developing...
 
 ## Library 
 ReactJs, Firebase, Ant Design, Framer Motion
