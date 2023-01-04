@@ -1,7 +1,7 @@
 # Project Chat App
 
 ## Library 
-ReactJs, Firebase, Framer Motion
+ReactJs, Firebase, Ant Design, Framer Motion
 
 
 # Getting Started with Create React App
