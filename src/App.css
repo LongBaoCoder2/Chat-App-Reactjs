@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Roboto+Serif:opsz,wght@8..144,300&display=swap");
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  /* font-family: "Anonymous Pro", monospace;
+  font-family: "Roboto Serif", serif; */
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+body {
+  min-height: 100vh;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to bottom, #477eff, #501be8);
+  border-radius: 100em;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #f5f5f5;
+  border-radius: 100em;
+}
