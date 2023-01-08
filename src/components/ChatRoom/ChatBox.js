@@ -32,7 +32,7 @@ const StyleSend = styled(Form)`
   position: fixed;
   bottom: 0px;
   background-color: #fff;
-  width: 80%;
+  width: 90%;
   padding: 10px;
   font-size: 50px;
   border: 1px solid #ccc;
@@ -163,7 +163,7 @@ const ChatBox = () => {
                 className={message.uid === uid ? "myself" : ""}
               ></Message>
             ))}
-            <div ref={messagesEndRef} />
+            <div ref={messagesEndRef} style={{ scrollBehavior: "smooth" }} />
           </StyleChatbox>
           <StyleSend form={form}>
             <Form.Item name="messages">

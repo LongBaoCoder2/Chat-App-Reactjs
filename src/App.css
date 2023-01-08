@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Roboto+Serif:opsz,wght@8..144,300&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap");
 *,
 *:before,
 *:after {
@@ -8,8 +7,7 @@
 * {
   margin: 0;
   padding: 0;
-  /* font-family: "Anonymous Pro", monospace;
-  font-family: "Roboto Serif", serif; */
+  font-family: "Poppins", sans-serif;
 }
 img,
 picture,

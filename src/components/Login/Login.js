@@ -114,6 +114,7 @@ const Login = () => {
       >
         <StyleHeading>Login</StyleHeading>
         <div>
+          {/* <Button text={"Have an Count "} onClick={handleLoginFb} /> */}
           <Button text={"Login with FaceBook"} onClick={handleLoginFb} />
           <Button text={"Login with Google"} onClick={handleLoginGoogle} />
         </div>
