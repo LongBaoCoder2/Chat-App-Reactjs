@@ -11,7 +11,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Config
 
-### You must re-config firebase ("./src/Firebase/config.js")
+### You should re-config firebase ("./src/Firebase/config.js")
 ### You also choose local firebase 
 Change directory to ./firebase and run script `firebase emulators:start`
 
